@@ -1,6 +1,6 @@
-xcodeproj 'gmenu.xcodeproj'
+xcodeproj 'MOMenu.xcodeproj'
 
-target 'gmenu' do
+target 'MOMenu' do
   pod 'MOLCodesignChecker'
 end
 

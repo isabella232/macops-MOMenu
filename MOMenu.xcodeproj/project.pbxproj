@@ -147,7 +147,7 @@
 			dependencies = (
 			);
 			name = MOMenu;
-			productName = gmenu;
+			productName = MOMenu;
 			productReference = D4E75C8B198BD429000F7F3B /* MOMenu.app */;
 			productType = "com.apple.product-type.application";
 		};
