@@ -6,7 +6,7 @@ MOMenu is a statusbar item with a plug-in architecture. This allows admins to cr
 
 ```sh
 pod install
-xcodebuild -workspace MOMenu.xcworkspace -scheme MOMenu -derivedDataPath build
+xcodebuild -workspace MOMenu.xcworkspace -scheme MOMenu -configuration Release -derivedDataPath build
 ```
 
 The built application will be in `build/Build/Products/Release/MOMenu.app`
