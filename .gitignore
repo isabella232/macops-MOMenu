@@ -4,5 +4,4 @@ Dist
 Pods
 *.xcodeproj/xcuserdata
 *.xcodeproj/project.xcworkspace
-*.xcworkspace/xcuserdata
-*.xcworkspace/xcshareddata
+*.xcworkspace
