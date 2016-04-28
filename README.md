@@ -12,4 +12,4 @@ xcodebuild -workspace MOMenu.xcworkspace -scheme MOMenu -derivedDataPath build
 The built application will be in `build/Build/Products/Release/MOMenu.app`
 
 ## Docs
-Coming shortly.
+Coming *shortly*.
