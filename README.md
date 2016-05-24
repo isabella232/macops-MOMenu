@@ -1,6 +1,6 @@
 # MOMenu
 
-MOMenu is a statusbar item with a plug-in architecture. This allows admins to create anything that helps their population: from setting preferences to reporting on staus.
+MOMenu is a menubar item with a plug-in architecture which allows admins to create anything that helps their fleet: from setting user preferences to reporting on machine status.
 
 ## Building
 
