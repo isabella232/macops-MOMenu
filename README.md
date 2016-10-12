@@ -6,7 +6,7 @@ MOMenu is a menubar item with a plug-in architecture which allows admins to crea
 
 Requires [CocoaPods](https://cocoapods.org/) and [Xcode](https://developer.apple.com/xcode/downloads/) to compile.
 
-Clone the repository, install necessary pods, then build the applications:
+Clone the repository, install necessary pods, then build the application:
 
 ```
 git clone https://github.com/google/macops-MOMenu
@@ -17,7 +17,7 @@ xcodebuild -workspace MOMenu.xcworkspace -scheme MOMenu -configuration Release -
 
 The built application will be in `./build/Build/Products/Release/MOMenu.app`
 
-In order to use MOMenu, install suitable plugins to `/Library/MOMenu/PlugIns`.
+In order to use MOMenu, install suitable plugins to `/Library/MOMenu/PlugIns`
 
 An example Snake plugin is included in this repository.
 
@@ -30,13 +30,13 @@ sudo mkdir -p /Library/MOMenu/PlugIns
 sudo cp -r build/Release/Snake.bundle /Library/MOMenu/PlugIns
 ```
 
-MOMenu and plugins must be codesigned with the same developer certificate in order to launch. To test the program without codesigning, launch it with the `nochecksignatures` flag:
+MOMenu and plugins must be codesigned with the same developer certificate in order to launch. To test the program without codesigning, launch it with the `nochecksignatures` flag, e.g.:
 
 ```
 ../../build/Build/Products/Release/MOMenu.app/Contents/MacOS/MOMenu --nochecksignatures
 ```
 
-MOMenu should appear in the menubar:
+MOMenu and its loaded plugins will appear in the menubar:
 
 <img src="https://github.com/verycarefully/macops-MOMenu/raw/master/docs/momenu.png">
 
