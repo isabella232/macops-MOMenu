@@ -38,5 +38,5 @@ MOMenu and plugins must be codesigned with the same developer certificate in ord
 
 MOMenu should appear in the menubar:
 
-<img src="https://github.com/google/macops-MOMenu/blob/master/MOMenu/docs/momenu.png">
+<img src="https://github.com/verycarefully/macops-MOMenu/raw/master/docs/momenu.png">
 
